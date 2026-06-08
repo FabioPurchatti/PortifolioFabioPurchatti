@@ -1,0 +1,21 @@
+.nomeCentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 140px;
+    font-family: var(--fonte);
+    color: var(--cor-nomeCentral);
+    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.3);
+    letter-spacing: 10px;
+    line-height: 250%;
+    margin: 50px 0 0 0;
+    padding: 100px 0 0 0;
+}
+
+@media (max-width:768px) {
+    .nomeCentral {
+        font-size: 60px;
+    }
+}

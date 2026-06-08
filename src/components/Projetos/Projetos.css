@@ -1,0 +1,42 @@
+.container-de-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+
+.projetos-container h4 {
+    font-family: var(--fonte);
+    color: var(--cor-nomeCentral);
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.projetos__capa {
+    width: 250px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 10px 5px;
+}
+
+.projetos__capa:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}

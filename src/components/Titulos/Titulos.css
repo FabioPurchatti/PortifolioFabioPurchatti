@@ -1,0 +1,21 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0 0;
+
+
+}
+
+.titulo h2 {
+    font-size: 70px;
+    padding: 50px;
+    font-family: var(--fonte);
+    color: var(--cor-nomeCentral);
+    text-shadow: var(--sombra-titulos);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

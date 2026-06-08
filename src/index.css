@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Strichpunkt+Sans:wght@400..900&display=swap');
+
+:root {
+  --fonte: 'League Gothic', sans-serif;
+  --cor-fonte-fjalla: #1C1C1C;
+  --cor-nomeCentral: #f5edf0;
+  --background-icone: #4B0082;
+  --background: url("/imagemfundo.png");
+  --background-cabecalho: #000900;
+  --sombra-titulos: 8px 5px 4px rgba(0, 0, 0, 0.5);
+  --fonte-sobremim: 'Strichpunkt Sans', sans-serif;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: var(--background);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}

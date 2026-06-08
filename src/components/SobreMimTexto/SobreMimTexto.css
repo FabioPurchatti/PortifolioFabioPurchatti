@@ -1,0 +1,29 @@
+.sobre-mim-texto-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 300px;
+    margin: 20px;
+
+}
+
+
+.sobre-mim-texto p {
+    font-family: var(--fonte-sobremim);
+    color: var(--cor-nomeCentral);
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 17px;
+    text-align: justify;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.sobre-mim-texto strong {
+    text-transform: uppercase;
+}
