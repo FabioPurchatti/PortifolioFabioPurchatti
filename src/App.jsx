@@ -29,7 +29,7 @@ function App() {
       id: 3,
       capa: "/apasfap.png",
       nome: "Apasfap",
-      link: "https://landing-page-apasfap.vercel.app/"
+      link: "https://apasfap-kappa.vercel.app/"
     },
 
   ];
