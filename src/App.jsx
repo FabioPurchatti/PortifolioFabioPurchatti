@@ -7,6 +7,7 @@ import SobreMimTexto from './components/SobreMimTexto/SobreMimTexto.jsx'
 import Contato from './components/Contato/Contato.jsx'
 import Tecnologias from './components/Tecnologias/Tecnologias.jsx'
 import Titulos from './components/Titulos/Titulos.jsx'
+import { Analytics } from '@vercel/analytics/react';
 
 
 import './App.css'
@@ -117,6 +118,10 @@ function App() {
   return (
 
     <>
+      <div>
+        {/* ... */}
+        <Analytics />
+      </div>
       <Cabecalho />
       <main>
         <NomeCentral>
