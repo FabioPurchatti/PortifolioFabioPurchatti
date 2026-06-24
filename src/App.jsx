@@ -11,7 +11,8 @@ import { Analytics } from '@vercel/analytics/react';
 
 
 import './App.css'
-
+/* Fazer uma separação dos projetos do protifólio com as liguagens utilizadas. html, css, javascript /  react, tailwind, redux, context API / .........*/
+/*Refatorar, criar e exportar para a pasta data os arrays temas, contato e tecnologias*/
 function App() {
   const temas = [
     {
