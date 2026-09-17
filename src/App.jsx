@@ -33,6 +33,13 @@ function App() {
       nome: "Apasfap",
       link: "https://apasfap-kappa.vercel.app/"
     },
+    {
+      id: 4,
+      capa: "/FilmesAPITMDB.png",
+      nome: "Search Filmes",
+      link: "https://aplicativo-filmes.vercel.app/"
+    },
+
 
   ];
 
